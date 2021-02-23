@@ -15,6 +15,7 @@ use TestMonitor\ActiveCampaign\Actions\ManagesOrganizations;
 use TestMonitor\ActiveCampaign\Actions\ManagesAccountContacts;
 use TestMonitor\ActiveCampaign\Actions\ManagesContactAutomations;
 use TestMonitor\ActiveCampaign\Actions\ManagesAccountCustomFields;
+use TestMonitor\ActiveCampaign\Actions\ManagesDeals;
 
 class ActiveCampaign
 {
@@ -30,7 +31,8 @@ class ActiveCampaign
         ManagesCustomFields,
         ManagesOrganizations,
         ManagesEvents,
-        ManagesLists;
+        ManagesLists,
+        ManagesDeals;
 
     /**
      * The ActiveCampaign base url.
